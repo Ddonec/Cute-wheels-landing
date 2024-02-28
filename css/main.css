@@ -98,7 +98,7 @@ h1 {
 .slider-main-contaimer {
    display: flex;
    gap: 5%;
-   width: 100%;
+   padding: 20px;
 }
 .slider-overflow-container {
    width: 100%;
@@ -194,6 +194,7 @@ h1 {
    align-items: center;
    justify-content: center;
    position: relative;
+   overflow: hidden;
    transition: 0.3s;
 }
 .text-discription-company {
@@ -201,6 +202,9 @@ h1 {
    color: aliceblue;
    background-color: #0e0c0c8c;
    border-radius: 10%;
+}
+.discription-of-company {
+   padding: 0 20px;
 }
 
 .img-catalog {
@@ -211,6 +215,12 @@ h1 {
    width: 100%;
    scale: 1.1;
    transition: 0.3s;
+}
+.catalog-ozon {
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
 }
 .cards-catalog-container {
    display: flex;
@@ -233,4 +243,19 @@ h1 {
    font-style: normal;
    font-weight: 500;
    line-height: 140%;
+}
+@media (max-width: 500px) {
+   html {
+      font-size: 10px;
+   }
+   .Photo-container {
+      height: 700px;
+   }
+   .photo-wheel-1,
+   .photo-wheel-2,
+   .photo-wheel-3,
+   .photo-wheel-4 {
+      width: 100%;
+      height: calc(25% - (60px / 3));
+   }
 }
