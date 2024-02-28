@@ -9,6 +9,10 @@ header {
    display: flex;
    width: 100%;
 }
+main {
+   max-width: 1400px;
+   margin: 0 auto;
+}
 h1 {
    padding: 20px 30px;
    margin: 0;
@@ -63,7 +67,15 @@ h1 {
 .Photo-container > div {
    border-radius: 20px;
 }
-
+.youtube-video {
+   position: relative;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
 .i-frame {
-   width: clamp(200px, 300px, 600px);
+   width: 100%;
+   aspect-ratio: 16/9;
+   max-width: 800px;
+   margin: 30px auto;
 }
