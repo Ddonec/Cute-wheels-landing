@@ -1,0 +1,261 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+.opacity {
+   opacity: 0;
+   /* z-index: -1; */
+}
+body {
+   position: relative;
+}
+header {
+   display: flex;
+   width: 100%;
+}
+main {
+   max-width: 1400px;
+   margin: 0 auto;
+}
+footer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: #838383;
+   height: 10vh;
+   margin-top: 50px;
+}
+footer span {
+   font-size: 0.5em;
+}
+h1 {
+   padding: 20px 30px;
+   margin: 0;
+}
+.first-section {
+   background-image: url(../assets/img/Toyota-ph1.jpg);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   aspect-ratio: 2/1;
+   min-height: 290px;
+   background-position: bottom;
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.Photo-container {
+   display: flex;
+   flex-direction: column;
+   height: 500px;
+   position: relative;
+   gap: 20px;
+   flex-wrap: wrap;
+   align-items: flex-start;
+}
+.photo-wheels-zone {
+   position: relative;
+   padding: 20px;
+}
+.photo-wheel-1,
+.photo-wheel-4 {
+   height: calc(40% - 20px);
+   width: calc((100% / 2) - 10px);
+   background-image: url(../assets/img/KONIG\ RENNFORM\ N780D\ MGM\ 4.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.photo-wheel-2,
+.photo-wheel-3 {
+   height: 60%;
+   width: calc((100% / 2) - 10px);
+   background-image: url(../assets/img/KONIG\ RENNFORM\ N780D\ MGM\ 5.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.photo-wheel-3 {
+   background-image: url(../assets/img/KONIG\ RENNFORM\ N780D\ MGM\ 6.jpg);
+}
+.photo-wheel-4 {
+   background-image: url(../assets/img/KONIG\ RENNFORM\ N780D\ MGM\ 7.jpg);
+}
+.Photo-container > div {
+   border-radius: 20px;
+}
+.youtube-video {
+   position: relative;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+}
+.i-frame {
+   width: 100%;
+   aspect-ratio: 16/9;
+   max-width: 800px;
+   margin: 30px auto;
+}
+
+.slider-main-contaimer {
+   display: flex;
+   gap: 5%;
+   padding: 20px;
+}
+.slider-overflow-container {
+   width: 100%;
+   /* overflow: auto; */
+}
+.slider-square-1 {
+   background: #2a2a2a;
+}
+.slider-square__img-1 {
+   background-image: url(../assets/img/Screenshot\ 2024-02-29\ at\ 00.54.53.png);
+   width: 80%;
+   height: 80%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20% 50%;
+   transition: 0.3s;
+}
+.slider-square-2 {
+   background: #727272;
+}
+.slider-square-3 {
+   background: #2a2a2a;
+}
+.slider-square__img-2 {
+   background-image: url(../assets/img/Screenshot\ 2024-02-29\ at\ 00.55.00.png);
+   width: 80%;
+   height: 80%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 50% 20%;
+   transition: 0.3s;
+}
+.slider-square-3:hover > .slider-square__img-3 {
+   width: 90%;
+   height: 90%;
+   border-radius: 10%;
+   transition: 0.3s;
+}
+.slider-square-2:hover > .slider-square__img-2 {
+   width: 90%;
+   height: 90%;
+   border-radius: 10%;
+   transition: 0.3s;
+}
+.slider-square-1:hover > .slider-square__img-1 {
+   width: 90%;
+   height: 90%;
+   border-radius: 10%;
+   transition: 0.3s;
+}
+.slider-square-1:hover > .text-discription-company {
+   width: 90%;
+   height: 90%;
+   opacity: 1;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.slider-square-2:hover > .text-discription-company {
+   width: 90%;
+   height: 90%;
+   opacity: 1;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.slider-square-3:hover > .text-discription-company {
+   width: 90%;
+   height: 90%;
+   opacity: 1;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.slider-square__img-3 {
+   background-image: url(../assets/img/Screenshot\ 2024-02-29\ at\ 00.55.05.png);
+   width: 80%;
+   height: 80%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 50% 20%;
+   transition: 0.3s;
+}
+
+.s-square {
+   width: 30%;
+   aspect-ratio: 1;
+   border-radius: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   overflow: hidden;
+   transition: 0.3s;
+}
+.text-discription-company {
+   position: absolute;
+   color: aliceblue;
+   background-color: #0e0c0c8c;
+   border-radius: 10%;
+}
+.discription-of-company {
+   padding: 0 20px;
+}
+
+.img-catalog {
+   width: 100%;
+   transition: 0.3s;
+}
+.img-catalog:hover {
+   width: 100%;
+   scale: 1.1;
+   transition: 0.3s;
+}
+.catalog-ozon {
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+.cards-catalog-container {
+   display: flex;
+   justify-content: space-between;
+}
+.cards-catalog-container > a {
+   width: 22%;
+   overflow: hidden;
+}
+
+.text-mons {
+   text-align: center;
+   font-family: Montserrat Alternates;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+}
+.text-lato {
+   font-family: "Lato", sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 140%;
+}
+@media (max-width: 500px) {
+   html {
+      font-size: 10px;
+   }
+   .Photo-container {
+      height: 700px;
+   }
+   .photo-wheel-1,
+   .photo-wheel-2,
+   .photo-wheel-3,
+   .photo-wheel-4 {
+      width: 100%;
+      height: calc(25% - (60px / 3));
+   }
+}
