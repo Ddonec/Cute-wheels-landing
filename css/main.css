@@ -2,6 +2,10 @@
    margin: 0;
    padding: 0;
 }
+.opacity {
+   opacity: 0;
+   /* z-index: -1; */
+}
 body {
    position: relative;
 }
@@ -78,4 +82,114 @@ h1 {
    aspect-ratio: 16/9;
    max-width: 800px;
    margin: 30px auto;
+}
+
+.about-factory-section {
+}
+.slider-main-contaimer {
+   display: flex;
+   gap: 5%;
+   width: 100%;
+}
+.slider-overflow-container {
+   width: 100%;
+   overflow: auto;
+}
+.slider-square-1 {
+   background: #2a2a2a;
+}
+.slider-square__img-1 {
+   background-image: url(../assets/img/Screenshot\ 2024-02-29\ at\ 00.54.53.png);
+   width: 80%;
+   height: 80%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 20% 50%;
+   transition: 0.3s;
+}
+.slider-square-2 {
+   background: #727272;
+}
+.slider-square-3 {
+    background: #2a2a2a;
+ }
+.slider-square__img-2 {
+   background-image: url(../assets/img/Screenshot\ 2024-02-29\ at\ 00.55.00.png);
+   width: 80%;
+   height: 80%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 50% 20%;
+   transition: 0.3s;
+}
+.slider-square-3:hover > .slider-square__img-3 {
+   width: 90%;
+   height: 90%;
+   border-radius: 10%;
+   transition: 0.3s;
+}
+.slider-square-2:hover > .slider-square__img-2 {
+   width: 90%;
+   height: 90%;
+   border-radius: 10%;
+   transition: 0.3s;
+}
+.slider-square-1:hover > .slider-square__img-1 {
+   width: 90%;
+   height: 90%;
+   border-radius: 10%;
+   transition: 0.3s;
+}
+.slider-square-1:hover > .text-discription-company {
+   width: 90%;
+   height: 90%;
+   opacity: 1;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.slider-square-2:hover > .text-discription-company {
+   width: 90%;
+   height: 90%;
+   opacity: 1;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.slider-square-3:hover > .text-discription-company {
+   width: 90%;
+   height: 90%;
+   opacity: 1;
+   display: flex;
+   align-items: center;
+   text-align: center;
+}
+.slider-square__img-3 {
+   background-image: url(../assets/img/Screenshot\ 2024-02-29\ at\ 00.55.05.png);
+   width: 80%;
+   height: 80%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 50% 20%;
+   transition: 0.3s;
+}
+
+.s-square {
+   width: 30%;
+   aspect-ratio: 1;
+   border-radius: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   transition: 0.3s;
+}
+.text-discription-company {
+   position: absolute;
+   color: aliceblue;
+   background-color: #0e0c0c8c;
+   border-radius: 10%;
 }
