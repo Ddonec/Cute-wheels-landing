@@ -46,6 +46,10 @@
       flex-wrap: wrap;
       gap: 20px;
    }
+   .go-to-shop-btn {
+      width: 150;
+      height: 36px;
+   }
 }
 
 @media (max-width: 700px) {
