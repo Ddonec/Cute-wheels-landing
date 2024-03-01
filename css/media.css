@@ -1,0 +1,285 @@
+@media (max-width: 1400px) {
+   h1 {
+      font-size: 3rem;
+   }
+}
+@media (max-width: 1100px) {
+   h1 {
+      font-size: 2rem;
+   }
+}
+@media (max-width: 700px) {
+   .first-section::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50%;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+      z-index: 1;
+   }
+   .first-section {
+      flex-direction: column;
+   }
+}
+@media (max-width: 500px) {
+   html {
+      font-size: 10px;
+   }
+   .Photo-container {
+      height: 900px;
+      gap: unset;
+      justify-content: space-between;
+   }
+   .photo-wheel-1,
+   .photo-wheel-2,
+   .photo-wheel-3,
+   .photo-wheel-4 {
+      width: 100%;
+      height: calc(24%);
+   }
+   .cards-catalog-container > a {
+      width: calc(50% - 10px);
+   }
+   .cards-catalog-container {
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+   .go-to-shop-btn {
+      width: 150;
+      height: 36px;
+   }
+}
+
+@media (max-width: 700px) {
+   .left-arrow,
+   .right-arrow {
+      display: none;
+   }
+
+   /* slider */
+   .product-slider-container,
+   .slider-visible-area,
+   .discriptoons-product-ss,
+   .product-slider-container,
+   .product-slider-container img {
+      width: calc(100vw - 40px);
+   }
+   .product-into-slider-container {
+      width: calc((100%) * 10);
+   }
+
+   .h1 {
+      line-height: 114%; /* 48.3px */
+   }
+   .four-container {
+      gap: 40px;
+   }
+   .head-text-menu-page {
+      line-height: 120%;
+      letter-spacing: 0.1px;
+   }
+}
+
+/* honer unset? */
+@media (pointer: coarse) {
+   .right-arrow:hover {
+      background: unset;
+   }
+   .right-arrow:hover > .round-arrow-container > .image-right-arrow img {
+      display: block;
+   }
+   .right-arrow:hover > .round-arrow-container > .image-right-arrow {
+      background-image: url(assets/icons/arrow-right.svg);
+   }
+
+   .left-arrow:hover {
+      background: unset;
+   }
+   .left-arrow:hover > .round-arrow-container > .image-right-arrow img {
+      display: none;
+   }
+   .left-arrow:hover > .round-arrow-container > .image-left-arrow {
+      background-image: url(../assets/icons/arrow-left.svg);
+   }
+
+   .button-menu-fs > .cup-of-coffe-logo-btn {
+      width: 20px;
+   }
+   .button-menu-fs {
+      gap: 8px;
+   }
+   .i-n-t-c {
+      background-size: cover;
+   }
+
+   .appstore-btn-fs:hover {
+      color: #665f55;
+      background-color: #e1d4c9;
+   }
+   .appstore-btn-fs:hover > .image-app-logo img {
+      display: block;
+   }
+   .image-app-logo {
+      width: 36px;
+      height: 36px;
+   }
+
+   .appstore-btn-fs:hover > .text-btn-app > .avalible-app-text {
+      color: #403f3d;
+   }
+   .appstore-btn-fs:hover > .text-btn-app > .appstore-app-text {
+      color: #403f3d;
+   }
+
+   .androidstore-btn-fs:hover {
+      color: #665f55;
+      background-color: #e1d4c9;
+   }
+   .androidstore-btn-fs:hover > .image-app-logo img {
+      display: block;
+   }
+   .image-app-logo {
+      width: 36px;
+      height: 36px;
+   }
+
+   .androidstore-btn-fs:hover > .text-btn-app > .avalible-app-text {
+      color: #403f3d;
+   }
+   .androidstore-btn-fs:hover > .text-btn-app > .appstore-app-text {
+      color: #403f3d;
+   }
+
+   .underline-footer:hover::before {
+      transform: scaleX(0);
+   }
+
+   .twitter-icon:hover {
+      background: unset;
+   }
+   .twitter-icon:hover div img {
+      display: block;
+   }
+
+   .instagram-icon:hover {
+      background: unset;
+   }
+   .instagram-icon:hover div img {
+      display: block;
+   }
+
+   .test {
+      width: 25px;
+      height: 25px;
+   }
+   .facebook-icon:hover {
+      background: unset;
+   }
+   .facebook-icon:hover div img {
+      display: block;
+   }
+
+   .underline:hover::before {
+      transform: scaleX(0);
+   }
+
+   /* menu  */
+
+   .image-zone-product img {
+      scale: 1;
+   }
+   .close-btn-modal:hover {
+      background-color: #e1d4c9;
+      color: #e1d4c9;
+   }
+   /* .size-value-btn:hover {
+        background-color: unset;
+        cursor: pointer;
+        border: 1px solid unset;
+    }
+    .size-value-btn:hover > p {
+        color: unset;
+    }
+
+    .size-value-btn:hover > div {
+        background-color: unset;
+    }
+
+    .size-value-btn {
+        border: 1px solid var unset;
+    }
+    .size-value-btn div {
+        background: #c1b6ad;
+    }
+    .size-value-btn p {
+        transition: 0.6s ease;
+    }
+
+    .close-btn-modal:hover {
+        background-color: unset;
+        color: unset;
+    }
+    .size-value-btn-active {
+        background: #665f55;
+        cursor: pointer;
+        border: 1px solid #665f55;
+    }
+    .size-value-btn-active > p {
+        color: #e1d4c9;
+    }
+
+    .size-value-btn-active > div {
+        background: #e1d4c9;
+    } */
+   .size-value-btn:hover {
+      border: 1px solid #c1b6ad;
+   }
+   .size-value-btn div {
+      background: #c1b6ad;
+   }
+}
+
+.size-value-btn:hover:not(.size-value-btn-active) {
+   background-color: #665f55;
+   cursor: pointer;
+   /* border: 1px solid #665f55; */
+}
+
+.size-value-btn:hover:not(.size-value-btn-active) > p {
+   color: #e1d4c9;
+}
+
+.size-value-btn:hover:not(.size-value-btn-active) > div {
+   background-color: #c1b6ad;
+}
+
+.size-value-btn-active {
+   background: #665f55;
+   cursor: pointer;
+   border: 1px solid #c1b6ad;
+}
+
+.size-value-btn-active > p {
+   color: #e1d4c9;
+}
+
+.size-value-btn-active > div {
+   background: #e1d4c9;
+}
+
+@media (hover: none) {
+   .size-value-btn:hover:not(.size-value-btn-active),
+   .size-value-btn:hover:not(.size-value-btn-active) > p {
+      background-color: transparent;
+      cursor: default;
+      /* border: 1px solid #c1b6ad; */
+      color: initial;
+   }
+   .size-value-btn:hover:not(.size-value-btn-active) > div {
+      cursor: default;
+      /* border: 1px solid #c1b6ad; */
+      color: initial;
+   }
+}
