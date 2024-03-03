@@ -79,7 +79,7 @@ function resetInterval() {
    interval = setInterval(function () {
       if (!isPaused) {
          secundomer += 100;
-         if (secundomer >= 6000) {
+         if (secundomer >= 2000) {
             secundomer = 0;
             switchSlide("right");
          }
