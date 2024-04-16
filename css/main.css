@@ -2,12 +2,17 @@
    margin: 0;
    padding: 0;
 }
+html {
+   scroll-behavior: smooth;
+}
 .opacity {
    opacity: 0;
    /* z-index: -1; */
 }
 body {
    position: relative;
+   background-image: url(../assets/img/triangle-v2-50.png);
+   background-size: contain;
 }
 header {
    display: flex;
@@ -22,8 +27,9 @@ footer {
    align-items: center;
    justify-content: center;
    background: #838383;
-   height: 10vh;
+   padding: 20px;
    margin-top: 50px;
+   flex-direction: column;
 }
 footer span {
    font-size: 0.5em;
@@ -421,17 +427,25 @@ h1 {
    font-style: normal;
    font-weight: 700;
    line-height: normal;
+
+   text-shadow: 0 0 2px rgba(255, 255, 255, 1);
 }
 .text-lato {
    font-family: "Lato", sans-serif;
    font-style: normal;
    font-weight: 500;
    line-height: 140%;
+   margin-top: 20px;
+
+   text-shadow: 0 0 2px rgba(255, 255, 255, 1);
 }
 .padding-left-20 {
    padding: 0 20px;
 }
-
+.motivation-box {
+   padding: 0 20px;
+   margin-bottom: 20px;
+}
 .go-to-shop-btn {
    width: 200px;
    height: 46px;
@@ -468,6 +482,37 @@ h1 {
    border-radius: 10px;
 }
 
+.fooler-box {
+   display: flex;
+   justify-content: space-around;
+   width: 70%;
+}
+.footer-list {
+   font-family: GTEestiPro, Arial, sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   color: #fff;
+   list-style: none;
+}
+.footer-list > li > a {
+   text-decoration: unset;
+   color: unset;
+}
+.footer-list-title {
+   font-size: 1.5rem;
+   margin-bottom: 20px;
+}
+.footer-list-list {
+   font-size: 1rem;
+   font-weight: 400;
+   margin: 10px 0;
+}
+.social-webs-footer {
+   display: flex;
+   gap: 20px;
+}
+
 .pseudo-btn {
    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); /* Тень */
    transition: box-shadow 0.3s ease; /* Плавное изменение тени при наведении */
@@ -482,4 +527,3 @@ h1 {
    scale: 1.1;
    transition: 0.3s;
 }
-
