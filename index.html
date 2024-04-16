@@ -21,7 +21,7 @@
       <link rel="stylesheet" href="css/media.css" />
    </head>
    <body>
-      <header>
+      <header id="header-home">
          <section class="first-section">
             <h1 class="text-mons">Диски ADVANTI и Konig для Toyota Camry</h1>
          </section>
@@ -52,7 +52,7 @@
          <div>
             <a class="go-to-shop-btn text-lato" onclick="window.location.href = 'https://www.ozon.ru/seller/krasnoe-koleso-355216/avtotovary-8500/?miniapp=seller_355216'"> Перейти в магазин </a>
          </div>
-         <section class="slider-section">
+         <section class="slider-section" id="slider">
             <div class="slider-second-section">
                <div class="left-arrow">
                   <div class="round-arrow-container">
@@ -121,7 +121,7 @@
                <div class="pag-10"></div>
             </div>
          </section>
-         <section class="photo-wheels-zone">
+         <section class="photo-wheels-zone" id="collection">
             <h2 class="text-mons">Коллекция дисков KÖNIG</h2>
             <div class="Photo-container">
                <div class="photo-wheel-1"></div>
@@ -130,29 +130,44 @@
                <div class="photo-wheel-4"></div>
             </div>
          </section>
-         <section class="catalog-ozon">
+         <section class="catalog-ozon" id="catalog">
             <h2 class="text-mons">Заказывайте диски Konig и ADVANTI для вашей Toyota Camry на Ozon</h2>
             <div class="cards-catalog-container">
                <a
                   href="https://www.ozon.ru/product/advanti-kolesnyy-disk-fastoso-ml537-gbu-18x8-pcd5x112-et40-d66-6-litoy-608454591/?_bctx=CAQQkNcV&asb=9%252Fd6%252FlC%252FEANtbgUuEqCTDuOVcJnvjIvCbGeO5pQr026QKuZ5Gw%252B86gJQUA6JiUoT&asb2=icaH6_bGKKPT2LliiT5WTHYZeDjt_rjaOcT4bNtIXkewXDmc1r7Gn5ZIzhSY6xqwECUFaxW_Gc4fKjPQNEmBE7ELU4bBnBR6N3PekUUjDwdc9RtkM4d2AiHQW86_S8ITT0kAzH1I9kreMXY_lPXLqyoKRRKcYhyBwH3k50Bv33w&avtc=1&avte=4&avts=1709159694&hs=1"
                >
-                  <img class="img-catalog-1 img-catalog" src="assets/img/6379445981.webp" alt=""
-               /></a>
+                  <div class="wheels-photo-box">
+                     <img class="img-catalog-1 img-catalog" src="assets/img/6379445981.webp" alt="" />
+                     <div class="pseudo-btn text-lato">Купить на Озон</div>
+                  </div>
+               </a>
                <a
                   href="https://www.ozon.ru/product/advanti-kolesnyy-disk-advanti-wlr5-mm579-mqsrp-17x7-5-pcd5x114-3-et45-d67-1-litoy-568222595/?_bctx=CAQQkNcV&asb=rYhHUNDvW5XnXBMvKRbONF2YzDzDwGyH0M0jcY03g96CsSUO%252F%252F6IAWIdGa8mI2XY&asb2=Vl0PwClsOG-JamnaRm0R0dwRJcrrehDh9hkZF8ae-E1hmMV15RQwF_dmfyTu7LspGrmirWJk2-dvj0qtUbAxn7gxxdXOD5Ltt89ayugDAvgc5Sd3PyRNJq_x_oxFGuepEyw9FxjtakPduGt4jtau9mlqihm1OZ9xwpbL_uRMlurkdAZEDfJzap6YOW1kizD1&avtc=1&avte=4&avts=1709160083&hs=1"
-                  ><img class="img-catalog-1 img-catalog" src="assets/img/6379461192.webp" alt=""
-               /></a>
+               >
+                  <div class="wheels-photo-box">
+                     <img class="img-catalog-1 img-catalog" src="assets/img/6379461192.webp" alt="" />
+                     <div class="pseudo-btn text-lato">Купить на Озон</div>
+                  </div></a
+               >
                <a
                   href="https://www.ozon.ru/product/konig-kolesnyy-disk-interflow-sp82-mqs-18x8-pcd5x114-3-et45-d67-1-litoy-538770395/?_bctx=CAQQkNcV&asb=3wgsHN8l3NalQeTDU2tyNcQJrxNMlL4MMqY2L%252BtLTe02BCbNCfkHffYDkUVv224F&asb2=lhtcApp-nB6Ck67_ofaS-Gion2xMEP2ZrYHU1Looe_hz3BrHDEa_pOfaNkpsBhQDF3mS11eGIbXGEk7XA6q_5_-ZtAHn25M7VpuaR2sk-T2RTL4EVMJLb-CYzf4B6el4ohSswRSlzlGQ3CFh-zdW-Fo6e6x110euDcrVxbJptVEDhts9aWqRCp_TCsyLyWLO&avtc=1&avte=4&avts=1709160261&hs=1"
-                  ><img class="img-catalog-1 img-catalog" src="assets/img/6382252445.webp" alt=""
-               /></a>
+               >
+                  <div class="wheels-photo-box">
+                     <img class="img-catalog-1 img-catalog" src="assets/img/6382252445.webp" alt="" />
+                     <div class="pseudo-btn text-lato">Купить на Озон</div>
+                  </div></a
+               >
                <a
                   href="https://www.ozon.ru/product/kolesnyy-disk-konig-disk-konig-ampliform-n636d-gm1u-18x8-5-pcd5x114-3-et42-d67-1-litoy-642910372/?_bctx=CAQQkNcV&asb=%252B8PHdQJNhdgxqxQ%252B7%252B67dLYjRbrbUI3j2pNhoODS9BT17R9T4QFczYGRiwgaYWQl&asb2=9WuEdf7yOBkqSmsJ-9TU9HsrImEAwIkkX52J0xqdgyNnPw42UhNZ4gspnuZ10lrjw8_lqimsIsTLgkwHY3veouzCtv2nfrqE-x819cJ20ZF0jXPPuKVSbiArb52nGJ6FUa2S1ihVm6gpaxXSB6ZwAFu7iHCwzwzmqbkszzbO-xCGHfnYjpoI6R9FnmMAq9C0&avtc=1&avte=4&avts=1709160297&hs=1"
-                  ><img class="img-catalog-1 img-catalog" src="assets/img/6379434167.webp" alt=""
-               /></a>
+               >
+                  <div class="wheels-photo-box">
+                     <img class="img-catalog-1 img-catalog" src="assets/img/6379434167.webp" alt="" />
+                     <div class="pseudo-btn text-lato">Купить на Озон</div>
+                  </div></a
+               >
             </div>
          </section>
-         <h2 class="text-mons padding-left-20">Видео с дисками на машине</h2>
+         <h2 class="text-mons padding-left-20" id="video">Видео с дисками на машине</h2>
          <section class="youtube-video">
             <iframe
                class="i-frame"
@@ -163,10 +178,19 @@
                allowfullscreen
             ></iframe>
          </section>
+         <section>
+            <div class="motivation-box">
+               <h2 class="text-mons padding-left-20" id="motivation">Почему стоит купить диски Konig</h2>
+               <p class="text-lato">
+                  Преимущества марки Konig – технологии в производстве Это, в свою очередь, обеспечивает автомобилю высокие ходовые качества. Диски Konig имеют стабильную структуру металла, в
+                  производстве не используется каких-либо примесей, которые могут негативно сказаться на эксплуатационных характеристиках.
+               </p>
+            </div>
+         </section>
          <div>
             <a class="go-to-shop-btn text-lato" onclick="window.location.href = 'https://www.ozon.ru/seller/krasnoe-koleso-355216/avtotovary-8500/?miniapp=seller_355216'"> Перейти в магазин </a>
          </div>
-         <section class="about-factory-section">
+         <section class="about-factory-section" id="history">
             <h2 class="text-mons padding-left-20">История компании</h2>
 
             <div class="slider-overflow-container">
@@ -210,6 +234,41 @@
          </section>
       </main>
       <footer>
+         <div class="fooler-box">
+            <ul class="footer-list">
+               <li class="footer-list-title">Разделы сайта</li>
+               <li class="footer-list-list"><a href="#header-home">Главная</a></li>
+               <li class="footer-list-list"><a href="#slider">Фото дисков на машине</a></li>
+               <li class="footer-list-list"><a href="#collection">Коллекция</a></li>
+               <li class="footer-list-list"><a href="#catalog">Каталог</a></li>
+               <li class="footer-list-list"><a href="#video">Посмотреть видео</a></li>
+               <li class="footer-list-list"><a href="#history">История компании</a></li>
+            </ul>
+            <ul class="footer-list">
+               <li class="footer-list-title">Наш магазин</li>
+               <li class="footer-list-list"><a target="_blank" href="https://www.ozon.ru/seller/krasnoe-koleso-355216/avtotovary-8500/?miniapp=seller_355216">Ozon</a></li>
+            </ul>
+            <ul class="footer-list">
+               <li class="footer-list-title">О нас</li>
+               <li class="footer-list-list"><a href="#header-home">Бизнес портал</a></li>
+            </ul>
+            <ul class="footer-list">
+               <li class="footer-list-title">Обратная связь</li>
+               <li class="footer-list-list">
+                  <div class="social-webs-footer">
+                     <img src="./assets/icons/footer-whatsup.svg" alt="" />
+                     <img src="./assets/icons/footer-tg.svg" alt="" />
+                     <img src="./assets/icons/footer-vk.svg" alt="" />
+                     <img src="./assets/icons/footer-ig.svg" alt="" />
+                  </div>
+               </li>
+               <li class="footer-list-list"><a href=""></a>po4ta@mailhost.com</li>
+               <li class="footer-list-list"><a href=""></a>+7 (999) 999 - 99 - 99</li>
+               <li class="footer-list-list"><a href=""></a></li>
+               <li class="footer-list-list"><a href=""></a></li>
+               <li class="footer-list-list"><a href="#history"></a></li>
+            </ul>
+         </div>
          <p class="text-lato">2024<span>©</span></p>
       </footer>
    </body>

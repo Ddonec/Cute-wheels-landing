@@ -2,6 +2,12 @@
    h1 {
       font-size: 3rem;
    }
+   .fooler-box {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 40px;
+      width: 90%;
+   }
 }
 @media (max-width: 1100px) {
    h1 {
@@ -49,6 +55,9 @@
    .go-to-shop-btn {
       width: 150;
       height: 36px;
+   }
+   .fooler-box {
+      flex-direction: column;
    }
 }
 
